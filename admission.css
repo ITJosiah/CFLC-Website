@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.head{
+    padding: 0.5vw 0vw;
+    background-color: #095D40;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+}
+.logo{
+    height: 100%;
+    padding: 10px;
+    margin-left: 1vw;
+}
+.name{
+    color: white;
+    text-shadow: 3px 4px 3px black;
+    font-family: 'Aoboshi One', sans-serif;
+    
+}
+.acro{
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.def{
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+}
+nav{
+    margin-left: auto;
+    list-style: none;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 3px 2px black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 20px 32px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background-color: #10A370;
+    transition: 0.5s;
+}
+
+.admit{
+    padding: 50px;
+    color: white;
+    text-align:center;
+    justify-content: center;
+    font-family: 'Aoboshi One', sans-serif;
+    font-size: 10vh;
+    font-stretch: ultra-expanded;
+    text-shadow: 2px 3px 2px black;
+    margin-top: 10vw;
+}
+
+.container{
+    display:flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 60vh;
+    height: 20vw;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: #095D40;
+}
+#box2{
+    background-color: #095D40;
+}
+#box3{
+    background-color: #095D40;
+}
+
+.psp{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vh;
+    color: yellow;
+}
+
+li.bc{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+p.xer{
+    padding-left: 30px;
+}
+
+li.enrol{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.g1p{
+    padding:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vh;
+    color: yellow;
+}
+
+li.eccd{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+li.prog{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+li.rp{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+li.bert{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+li.er{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 5px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.trans{
+    padding:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vh;
+    color: yellow;
+}
+
+li.sf9{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 2px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+li.gmc{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 2px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+p.char{
+    padding-left: 33px;
+}
+
+li.cert{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 2px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+p.ox{
+    padding-left: 33px;
+}
+
+li.ef{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: white;
+    padding: 2px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/background\ blue.png);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.slider-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 150px;
+}
+
+.slider-header h1 {
+    padding: 50px;
+    color: white;
+    text-align:center;
+    justify-content: center;
+    font-family: 'Aoboshi One', sans-serif;
+    font-size: 10vh;
+    font-stretch: ultra-expanded;
+    text-shadow: 2px 3px 2px black;
+    margin-top: -4vw;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 4vw;
+}
+
+.slider {
+    position: relative;
+    width: 600px; /* Adjust as needed */
+    height: 450px; /* Adjust as needed */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 1vw;
+    
+}
+
+.images {
+    display: flex;
+    width: 2400px; /* Total width of all images (600px * 4 images) */
+    transition: transform 0.3s ease; /* Smooth transition */
+    border: none;
+}
+
+.images img {
+    height: 450px; /* Adjusted height of the images */
+    width: 600px; /* Adjusted width of a single image */
+    transition: transform 0.3s ease;
+}
+
+/* ... (rest of your existing styles) ... */
+
+.images input {
+    display: none; /* Hide the input buttons */
+}
+
+.dots {
+    display: flex;
+}
+
+.slider-container .dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 2px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 0 10px;
+}
+.dots label:hover {
+    background: #fff;
+}
+
+#img1:checked ~ .images {
+    transform: translateX(0%);
+}
+
+#img2:checked ~ .images {
+    transform: translateX(-600px); /* Shift to show the second image */
+}
+
+#img3:checked ~ .images {
+    transform: translateX(-1200px); /* Shift to show the third image */
+}
+
+#img4:checked ~ .images {
+    transform: translateX(-1800px); /* Shift to show the fourth image */
+}
+
+#img5:checked ~ .images {
+    transform: translateX(-2400px); /* Shift to show the fourth image */
+}
+
+#img6:checked ~ .images {
+    transform: translateX(-3000px); /* Shift to show the fourth image */
+}
+
+#img7:checked ~ .images {
+    transform: translateX(-3600px); /* Shift to show the fourth image */
+}
+
+#img8:checked ~ .images {
+    transform: translateX(-4200px); /* Shift to show the fourth image */
+}
+
+#img9:checked ~ .images {
+    transform: translateX(-4800px); /* Shift to show the fourth image */
+}
+
+.dots-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px; /* Adjust the distance from the bottom */
+    left: 0;
+}
+.join{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(28, 30, 69, 0.7), rgba(28, 30, 69, 0.7)), url(images/Faculty\ .jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+}
+.join h1{
+    font-weight: bold;
+    font-family: cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #7ED957;
+    text-shadow: 6px 7px 6px black;
+    margin-right: 8vw;
+    margin-top: 14vw;
+    text-align: center;
+    margin-left: 18vw;
+    font-size: 13vw;
+    font-style: italic;
+}
+.footer {
+    bottom: 0;
+    width: 95.95%;
+    left: 0;
+    text-align: center;
+    background-color: #095D40;
+    color: white;
+    padding: 2vw;
+    margin-top: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+}

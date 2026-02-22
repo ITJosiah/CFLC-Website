@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.head{
+    padding: 0.5vw 0vw;
+    background-color: #095D40;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    
+}
+.logo{
+    height: 100%;
+    padding: 10px;
+    margin-left: 1vw;
+}
+.name{
+    color: white;
+    text-shadow: 3px 4px 3px black;
+    font-family: 'Aoboshi One', sans-serif;
+    
+}
+.acro{
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.def{
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+}
+nav{
+    margin-left: auto;
+    list-style: none;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 3px 2px black;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 20px 32px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background-color: #10A370;
+    transition: 0.5s;
+}
+.box{
+    display: block;
+}
+.box img{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: 12vw;
+    
+}
+.contacts {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    white-space: nowrap;
+    display: inline-block;
+    font-size: 1.4vw;
+
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.image-container img {
+    width: 30px; 
+    height: auto;
+    margin-right: 15px; 
+    margin-top: 1vh;
+}
+
+.text-container {
+    max-width: 400px; 
+    margin-left: 2vh;
+}
+
+.text-container h1 {
+    font-size: 1.5em;
+    margin-bottom: 0px; 
+    font-family: 'Aoboshi One', sans-serif;
+}
+
+.text-container p {
+    margin: 0;
+    font-size: 1em;    
+}
+.text-container a{
+    text-decoration: none;
+}
+.text-container .pcolor{
+    color: #1564C6;
+}
+
+.containerborder{
+    justify-content: center;
+    align-items: center;
+    margin-left: 40vw;
+    margin-top: -7vw;
+    margin-bottom: 5vw;
+    display: flex;
+}
+.row{
+    background: linear-gradient(to right, #0097B2 0%, #7ED957 100%);
+    width: 33vw;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+    margin-top: -23.5vw;
+}
+.row h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Aoboshi One', sans-serif;
+    font-size: 2vw;
+    margin-bottom: 1vh;
+}
+.row h5{
+    color: #00295b;
+    font-family: 'Aoboshi One', sans-serif;
+    font-size: 2vw;
+    margin-bottom: 1vh;
+}
+.inputs {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.findus {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(28, 30, 69, 0.7), rgba(28, 30, 69, 0.7)), url(images/contactsbg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    position: relative;
+    justify-content: space-between;
+}
+.findus h2{
+    color: #F4CA44;
+    margin-left: 8vw;
+    margin-top: 6vw;
+    font-size: 4vw;
+    font-family: cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-style: italic;
+}
+.point{
+    display: flex;
+}
+.character {
+    height: 45vw;
+    margin-left: 7vw;
+    margin-top: -2vw;
+}
+.map{
+    margin-left: 6vw;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .head {
+        height: 50vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        height: 15vw;
+        margin-bottom: 10px;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 1rem; /* Adjusted font size */
+    
+    }
+    .acro{
+        font-size: 1rem;
+        margin-bottom: 3vw;
+    }
+    nav {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+    
+    nav ul {
+        float: none;
+        margin: 0;
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    nav ul li a {
+        padding: 10px;
+        font-size: 0.8rem; /* Adjusted font size */
+    }
+
+}
+.footer {
+    bottom: 0;
+    width: 95.95%;
+    left: 0;
+    text-align: center;
+    background-color: #095D40;
+    color: white;
+    padding: 2vw;
+    margin-top: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+}
+
