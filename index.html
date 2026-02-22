@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,13 +9,14 @@
     <link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
 </head>
 <style>
-    *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
     }
-    .first{
-        background-image: linear-gradient(rgba(12, 192, 223, 0.2),rgba(12, 192, 223, 0.2)), url(Images/front.jpg);
+
+    .first {
+        background-image: linear-gradient(rgba(12, 192, 223, 0.2), rgba(12, 192, 223, 0.2)), url(./images/front.jpg);
         min-height: 100vh;
         width: 100%;
         background-position: center;
@@ -24,7 +26,8 @@
         justify-content: center;
         align-items: center;
     }
-    .motto{
+
+    .motto {
         text-align: center;
         color: white;
         font-size: 5rem;
@@ -36,50 +39,59 @@
         z-index: 1;
         vertical-align: middle;
     }
-    .head{
-    padding: 0.5vw 0vw;
-    background-color: #095D40;
-    width: 100%;
-    height: 130px;
-    display: flex;
-    align-items: center;
-    z-index: 2;
-    position: absolute;
-    
+
+    .head {
+        padding: 0.5vw 0vw;
+        background-color: #095D40;
+        width: 100%;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        z-index: 2;
+        position: absolute;
+
     }
-    .logo{
+
+    .logo {
         height: 100%;
         padding: 10px;
         margin-left: 1vw;
     }
-    .name{
+
+    .name {
         color: white;
         text-shadow: 3px 4px 3px black;
         font-family: 'Aoboshi One', sans-serif;
-        
+
     }
-    .acro{
+
+    .acro {
         font-size: 3rem;
-        font-family:'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', Times, serif;
         letter-spacing: 2px;
     }
-    .def{
+
+    .def {
         font-size: 1.5rem;
-        font-family:'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', Times, serif;
     }
-    nav{
+
+    nav {
         margin-left: auto;
         list-style: none;
     }
-    nav ul{
+
+    nav ul {
         float: right;
         margin-right: 20px;
     }
-    nav ul li{
+
+    nav ul li {
         display: inline-block;
         margin: 10px;
     }
-    nav ul li a{
+
+    nav ul li a {
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
@@ -89,23 +101,29 @@
         padding: 20px 32px;
         border-radius: 3px;
     }
-    a.active,a:hover{
+
+    a.active,
+    a:hover {
         background-color: #10A370;
         transition: 0.5s;
-        }
-    .second{
+    }
+
+    .second {
         background-color: #123B6E;
         width: 100%;
         height: 120vh;
     }
-    .ann{
+
+    .ann {
         position: absolute;
-        background-color: #FFFF00	;
+        background-color: #FFFF00;
         margin-top: 20px;
     }
+
     #scroll-container {
         overflow: hidden;
     }
+
     #scroll-text {
         color: black;
         font-family: Arial, Helvetica, sans-serif;
@@ -120,24 +138,32 @@
         -webkit-animation: my-animation 15s linear infinite;
         animation: my-animation 15s linear infinite;
     }
+
     @-webkit-keyframes my-animation {
-        from { -webkit-transform: translateX(100%); }
-        to { -webkit-transform: translateX(-100%); }
+        from {
+            -webkit-transform: translateX(100%);
+        }
+
+        to {
+            -webkit-transform: translateX(-100%);
+        }
     }
 
     @keyframes my-animation {
-    from {
-        -moz-transform: translateX(100%);
-        -webkit-transform: translateX(100%);
-        transform: translateX(100%);
+        from {
+            -moz-transform: translateX(100%);
+            -webkit-transform: translateX(100%);
+            transform: translateX(100%);
         }
-    to {
-        -moz-transform: translateX(-100%);
-        -webkit-transform: translateX(-100%);
-        transform: translateX(-100%);
+
+        to {
+            -moz-transform: translateX(-100%);
+            -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
         }
     }
-    .for{
+
+    .for {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -148,22 +174,26 @@
         -webkit-text-stroke-color: #7f6600;
         -webkit-text-stroke-width: 1px;
     }
-    .uni{
+
+    .uni {
         display: flex;
         align-items: center;
         justify-content: center;
         color: black;
     }
-    .rib{
+
+    .rib {
         width: 900px;
         padding-top: 50px;
     }
-    .unity{
+
+    .unity {
         position: absolute;
         font-size: 4.3rem;
         text-shadow: 2px 3px 2px white;
     }
-    .tv{
+
+    .tv {
         padding-left: 450px;
         padding-top: 70px;
         font-size: 1.7rem;
@@ -171,7 +201,8 @@
         color: white;
         text-shadow: 2px 3px 2px black;
     }
-    .bv{
+
+    .bv {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -181,19 +212,22 @@
         color: white;
         text-shadow: 2px 3px 2px black;
     }
-    .third{
+
+    .third {
         width: 100%;
         height: 80vh;
         background-color: #095D40;
     }
-    .lat{
+
+    .lat {
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         top: 10%;
     }
-    .latest{
+
+    .latest {
         font-family: 'Asap Condensed';
         font-size: 5rem;
         font-weight: 900;
@@ -201,6 +235,7 @@
         text-shadow: 2px 2px 2px black;
         letter-spacing: 1px;
     }
+
     .picBoxes {
         display: flex;
         justify-content: space-around;
@@ -219,16 +254,18 @@
         width: 100%;
         height: auto;
     }
-    .fourth{
+
+    .fourth {
         width: 100%;
         height: 200px;
-        background-color: #123B6E; 
+        background-color: #123B6E;
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100%;
         margin: 0;
     }
+
     .buttons a {
         display: inline-block;
         width: 170px;
@@ -241,14 +278,16 @@
         align-items: center;
         margin: 0 20px;
     }
-    .icon{
+
+    .icon {
         height: 110px;
         position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -70%);
     }
-    .eh{
+
+    .eh {
         font-family: 'Asap Condensed';
         letter-spacing: .5px;
         font-weight: bold;
@@ -258,7 +297,8 @@
         text-transform: uppercase;
         color: black;
     }
-    .ehh{
+
+    .ehh {
         font-family: 'Asap Condensed';
         letter-spacing: .5px;
         font-weight: bold;
@@ -267,56 +307,63 @@
         text-transform: uppercase;
         color: black;
     }
+
     .buttons a:hover {
-        background-color:  #FFFF66;
+        background-color: #FFFF66;
         color: white;
         transition: background-color 0.3s, color 0.3s;
     }
+
     .buttons a:hover .icon {
         filter: brightness(0.5);
     }
+
     .buttons a:hover .eh {
         filter: brightness(0.5);
     }
-    .ann{
+
+    .ann {
         width: 100%;
         height: 80px;
         color: #10A370;
     }
-    .announ{
+
+    .announ {
         white-space: nowrap;
         overflow: hidden;
         animation: moveText 5s linear infinite;
     }
+
     .footer {
-    bottom: 0;
-    width: 95.95%;
-    left: 0;
-    text-align: center;
-    background-color: #095D40;
-    color: white;
-    padding: 2vw;
-    margin-top: auto;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
-}
+        bottom: 0;
+        width: 95.95%;
+        left: 0;
+        text-align: center;
+        background-color: #095D40;
+        color: white;
+        padding: 2vw;
+        margin-top: auto;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.5vw;
+    }
 </style>
+
 <body>
     <header class="head">
-        <img src="Images/logo.png" alt="logo" class="logo">
+        <img src="./images/logo.png" alt="logo" class="logo">
         <div class="name">
             <h1 class="acro">CFLC</h1>
             <p class="def">Christian Foundational Learning Center</p>
         </div>
-            <nav>
-                </label>
-                <ul>
-                    <li><a href="C:\Users\Josiah Luke\source\repos\CFLC Website\About.html">Home</a></li>
-                        <li><a href="C:\Users\Josiah Luke\source\repos\CFLC Website\About.html">About Us</a></li>
-                        <li><a href="C:\Users\Josiah Luke\source\repos\CFLC Website\Admission.html">Admission</a></li>
-                        <li><a href="C:\Users\Josiah Luke\source\repos\CFLC Website\Contact.html">Contact Us</a></li>
-                </ul>
-            </nav>   
+        <nav>
+            </label>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./About.html">About Us</a></li>
+                <li><a href="./Admission.html">Admission</a></li>
+                <li><a href="./Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="first">
         <h1 class="motto"> “Bawat bata sa Diyos ay mahalaga.”</h1>
@@ -326,87 +373,89 @@
             <div class="ann">
                 <div id="scroll-container">
                     <div id="scroll-text">Announcements: <div>
+                        </div>
+                    </div>
+                    <div class="for">
+                        <h1>For this school year’s theme:</h1>
+                    </div>
+                    <div class="uni">
+                        <img src="./images/ribbon.png" alt="" class="rib">
+                        <h1 class="unity">UNITY in VISION</h1>
+                    </div>
+                    <div class="tv">
+                        <h1>Theme verse:</h1>
+                    </div>
+                    <div class="bv">
+                        <h1>Ephesians 4:1-3</h1>
+                    </div>
+                    <div class="bv">
+                        <p>1 Live a life worthy of the calling you have recieved.</p>
+                    </div>
+                    <div class="bv">
+                        <p>2 Be completely humble and gentle, be patient bearing with one another in love.</p>
+                    </div>
+                    <div class="bv">
+                        <p>3 Make every effort to keep the unity spirit through the bond of peace.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="for">
-                <h1>For this  school year’s theme:</h1>
-            </div>
-            <div class="uni">
-                <img src="Images/ribbon.png" alt="" class="rib">
-                <h1 class="unity">UNITY in VISION</h1>
-            </div>
-            <div class="tv">
-                <h1>Theme verse:</h1>
-            </div>
-            <div class="bv">
-                <h1>Ephesians 4:1-3</h1>
-            </div>
-            <div class="bv">
-                <p>1 Live a life worthy of the calling you have recieved.</p>
-            </div>
-            <div class="bv">
-                <p>2 Be completely humble and  gentle,  be patient bearing with one another in love.</p>
-            </div>
-            <div class="bv">
-                <p>3 Make every effort to keep the unity spirit through the bond of peace.</p>
-            </div>              
-        </div>
     </section>
-    <section class = third>
-        <div class = lat>
+    <section class=third>
+        <div class=lat>
             <h1 class="latest">Latest Activities</h1>
         </div>
         <div class="picBoxes">
             <div class="picBox">
-                <img src="Images/images.jpeg" alt="pic1">
+                <img src="./images/images.jpeg" alt="pic1">
             </div>
             <div class="picBox">
-                <img src="Images/images.jpeg" alt="pic2">
+                <img src="./images/images.jpeg" alt="pic2">
             </div>
             <div class="picBox">
-                <img src="Images/images.jpeg" alt="pic3">
+                <img src="./images/images.jpeg" alt="pic3">
             </div>
-        </div>     
+        </div>
     </section>
-    <section class = fourth>
+    <section class=fourth>
         <div class="buttons">
             <a href="https://drive.google.com/file/d/1Bh3JEe3Q9avEE8Y26NUnLjvExUGo8BcJ/view?usp=sharing">
-                <img src="Images/cur.png" alt="cur" class="icon">
+                <img src="./images/cur.png" alt="cur" class="icon">
                 <p class="eh">School Curriculum</p>
                 <p class="ehh">(Pre-School)</p>
             </a>
             <a href="https://drive.google.com/file/d/19TUdKMnscHY9rVHkzbZ8nEA3tlEXBXOF/view?usp=sharing">
-                <img src="Images/cur.png" alt="cur" class="icon">
+                <img src="./images/cur.png" alt="cur" class="icon">
                 <p class="eh">School Curriculum</p>
                 <p class="ehh">(Elementary)</p>
             </a>
             <a href="https://drive.google.com/file/d/1fUgqSKG1sH85gXeg_x7bphKtg4TwOj7f/view?usp=sharing">
-                <img src="Images/hand.png" alt="hand" class="icon">
+                <img src="./images/hand.png" alt="hand" class="icon">
                 <p class="eh">School Handbook</p>
                 <p class="ehh">(Pre-School)</p>
             </a>
             <a href="https://drive.google.com/file/d/1laestrQDiVFlfYAgC3JK4YsYQNqXupsy/view?usp=sharing">
-                <img src="Images/hand.png" alt="hand" class="icon">
+                <img src="./images/hand.png" alt="hand" class="icon">
                 <p class="eh">School Handbook</p>
                 <p class="ehh">(Elementary)</p>
             </a>
-            <a href="https://drive.google.com/file/d/1a-gVSKYSUVNHT-BsclHcChSmgS-LISvv/view?fbclid=IwAR3Gu_o23h5zDGYDvRSgP3iFmHeSqte62a6kOgz4CT08qNMXgYt45CBXIrQ">
-                <img src="Images/cal.png" alt="cal" class="icon">
+            <a
+                href="https://drive.google.com/file/d/1a-gVSKYSUVNHT-BsclHcChSmgS-LISvv/view?fbclid=IwAR3Gu_o23h5zDGYDvRSgP3iFmHeSqte62a6kOgz4CT08qNMXgYt45CBXIrQ">
+                <img src="./images/cal.png" alt="cal" class="icon">
                 <p class="eh">School Calendar</p>
                 <p class="ehh">SY 2023 - 2024</p>
             </a>
             <a href="https://drive.google.com/file/d/17YAa1M88z6hQR7R8hcvxJNfkgpsuPAsq/view?usp=sharing">
-                <img src="Images/unif.png" alt="unif" class="icon">
+                <img src="./images/unif.png" alt="unif" class="icon">
                 <p class="eh">Proper School</p>
                 <p class="ehh"> Uniform </p>
             </a>
         </div>
-    </section> 
+    </section>
 
     <div class="footer">
         <p>&copy; 2023 Christian Foundational Learning Center</p>
-    <p>
+        <p>
     </div>
 
 </body>
+
 </html>
